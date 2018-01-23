@@ -1,13 +1,23 @@
 ## Table of Contents
 
 - [Introduction](#introduction)
+- [Why not Cloud spanner](#why-not-cloud-spanner)
 - [Requirements](#requirements)
 - [Development environment setup](#development-environment-setup)
 - [Cloud DB instance](#cloud-db-instance)
+- [Sysbench](#sysbench)
 
 ## Introduction
 
 This setup helps to run sevaral workload on cloud databases (AWS Aurora & Google Cloud SQL) using sysbench.
+
+## Why not Cloud spanner
+
+Initial exercise requirement was to compare Amazon Aurora and Google cloud spanner. But in initial study and setup phase, we learned that there is an issue when communicating to Google spanner through Spanner's JDBC driver.
+Environment had been setup as per JDBC driver docs says, but still there is an issue in establishing a communication to cloud spanner.
+
+This issue has been raised in stack overflow
+https://stackoverflow.com/questions/48400548/google-spanner-jdbc-driver-connection-parameters
 
 ## Requirements
 
@@ -65,3 +75,7 @@ Choose Configuration
 * DB type : Mysql v5.6
 * Region : US-central1-f
 
+## Sysbench
+
+sysbench is a scriptable multi-threaded benchmark tool based on LuaJIT. It is most frequently used for database benchmarks, but can also be used to create arbitrarily complex workloads that do not involve a database server.
+It comes with OLTP database benchmark test cases.
