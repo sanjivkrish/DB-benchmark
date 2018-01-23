@@ -77,5 +77,7 @@ Choose Configuration
 
 ## Sysbench
 
-sysbench is a scriptable multi-threaded benchmark tool based on LuaJIT. It is most frequently used for database benchmarks, but can also be used to create arbitrarily complex workloads that do not involve a database server.
+Sysbench is a scriptable multi-threaded benchmark tool based on LuaJIT. It is most frequently used for database benchmarks, but can also be used to create arbitrarily complex workloads that do not involve a database server.
 It comes with OLTP database benchmark test cases.
+https://github.com/akopytov/sysbench
+
