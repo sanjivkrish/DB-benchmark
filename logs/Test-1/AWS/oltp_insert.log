@@ -1,0 +1,1121 @@
+sysbench 1.0.12 (using bundled LuaJIT 2.1.0-beta2)
+
+Running the test with following options:
+Number of threads: 8
+Initializing random number generator from current time
+
+
+Initializing worker threads...
+
+Threads started!
+
+SQL statistics:
+    queries performed:
+        read:                            0
+        write:                           14781
+        other:                           0
+        total:                           14781
+    transactions:                        14781  (1476.95 per sec.)
+    queries:                             14781  (1476.95 per sec.)
+    ignored errors:                      0      (0.00 per sec.)
+    reconnects:                          0      (0.00 per sec.)
+
+General statistics:
+    total time:                          10.0058s
+    total number of events:              14781
+
+Latency (ms):
+         min:                                  3.31
+         avg:                                  5.41
+         max:                                 15.81
+         95th percentile:                      6.79
+         sum:                              79986.20
+
+Threads fairness:
+    events (avg/stddev):           1847.6250/0.70
+    execution time (avg/stddev):   9.9983/0.00
+
+sysbench 1.0.12 (using bundled LuaJIT 2.1.0-beta2)
+
+Running the test with following options:
+Number of threads: 16
+Initializing random number generator from current time
+
+
+Initializing worker threads...
+
+Threads started!
+
+SQL statistics:
+    queries performed:
+        read:                            0
+        write:                           26680
+        other:                           0
+        total:                           26680
+    transactions:                        26680  (2664.87 per sec.)
+    queries:                             26680  (2664.87 per sec.)
+    ignored errors:                      0      (0.00 per sec.)
+    reconnects:                          0      (0.00 per sec.)
+
+General statistics:
+    total time:                          10.0099s
+    total number of events:              26680
+
+Latency (ms):
+         min:                                  3.49
+         avg:                                  6.00
+         max:                                 18.23
+         95th percentile:                      7.84
+         sum:                             160030.07
+
+Threads fairness:
+    events (avg/stddev):           1667.5000/1.70
+    execution time (avg/stddev):   10.0019/0.00
+
+sysbench 1.0.12 (using bundled LuaJIT 2.1.0-beta2)
+
+Running the test with following options:
+Number of threads: 32
+Initializing random number generator from current time
+
+
+Initializing worker threads...
+
+Threads started!
+
+SQL statistics:
+    queries performed:
+        read:                            0
+        write:                           25020
+        other:                           0
+        total:                           25020
+    transactions:                        25020  (2499.71 per sec.)
+    queries:                             25020  (2499.71 per sec.)
+    ignored errors:                      0      (0.00 per sec.)
+    reconnects:                          0      (0.00 per sec.)
+
+General statistics:
+    total time:                          10.0073s
+    total number of events:              25020
+
+Latency (ms):
+         min:                                  4.34
+         avg:                                 12.79
+         max:                                 42.14
+         95th percentile:                     21.50
+         sum:                             319980.17
+
+Threads fairness:
+    events (avg/stddev):           781.8750/3.30
+    execution time (avg/stddev):   9.9994/0.00
+
+sysbench 1.0.12 (using bundled LuaJIT 2.1.0-beta2)
+
+Running the test with following options:
+Number of threads: 64
+Initializing random number generator from current time
+
+
+Initializing worker threads...
+
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: Thread initialization failed!
+sysbench 1.0.12 (using bundled LuaJIT 2.1.0-beta2)
+
+Running the test with following options:
+Number of threads: 128
+Initializing random number generator from current time
+
+
+Initializing worker threads...
+
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+(last message repeated 5 times)
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+(last message repeated 1 times)
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: Thread initialization failed!
+sysbench 1.0.12 (using bundled LuaJIT 2.1.0-beta2)
+
+Running the test with following options:
+Number of threads: 256
+Initializing random number generator from current time
+
+
+Initializing worker threads...
+
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+(last message repeated 1 times)
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: unable to connect to MySQL server on host 'dbinn.cu57np2yl7m4.us-west-2.rds.amazonaws.com', port 3306, aborting...
+FATAL: error 1040: Too many connections
+FATAL: `thread_init' function failed: /usr/share/sysbench/oltp_common.lua:349: connection creation failed
+FATAL: Thread initialization failed!
